@@ -1,7 +1,7 @@
 var fs = require('fs');
 var http = require('http');
 var url = require('url');
-var ROOT_DIR = "/home/ec2-user/cs360/";
+var ROOT_DIR = "/home/ec2-user/cs360/weather/";
 
 http.createServer(function (req, res) {
   console.log("HTTP Request Received!");
